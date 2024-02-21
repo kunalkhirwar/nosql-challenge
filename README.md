@@ -5,10 +5,10 @@ The UK Food Standards Agency evaluates various establishments across the United 
 
 **Part 1: Database and Jupyter Notebook Set Up**
 
-Used '*NoSQL_setup_starter.ipynb*' for this section of the challenge.
+Used '*NoSQL_setup.ipynb*' for this section of the challenge.
 
-1. Imported the data provided in the '*establishments.json*' file from the command promt. Named the database **uk_food** and the collection **establishments**. Copied the text I used to import the data from the command promt to a markdown cell in my notebook.
-2. Within my notebook, imported the libraries I need: PyMongo and Pretty Print (pprint).
+1. Imported the data provided in the '*establishments.json*' file from the command promt. Named the database **uk_food** and the collection **establishments**.
+2. Within my notebook, imported the libraries I needed: PyMongo and Pretty Print (pprint).
 3. Created an instance of the Mongo Client.
 4. Confirmed that I created the database and loaded the data properly:
    - Listed the databases I had in MongoDB. Confirmed that **uk_food** is listed.
@@ -19,7 +19,7 @@ Used '*NoSQL_setup_starter.ipynb*' for this section of the challenge.
 
 **Part 2: Update the Database**
 
-Used '*NoSQL_setup_starter.ipynb*' for this section of the challenge.
+Used '*NoSQL_setup.ipynb*' for this section of the challenge.
 
 The magazine editors have some requested modifications for the database before I could perform any queries or analysis for them. Made the following changes to the **establishments** collection:
 
@@ -36,7 +36,7 @@ The magazine editors have some requested modifications for the database before I
 
 ***Eat Safe, Love*** had specific questions they wanted me to answer, which would help them find the locations they wish to visit and avoid.
 
-Used '*NoSQL_analysis_starter.ipynb*' for this section of the challenge.
+Used '*NoSQL_analysis.ipynb*' for this section of the challenge.
 
 Some notes to be aware of while I was exploring the dataset:
   - **RatingValue** refers to the overall rating decided by the Food Authority and ranges from 1-5. The higher the value, the better the rating.
